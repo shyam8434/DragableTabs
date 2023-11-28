@@ -1,0 +1,32 @@
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.add-icon {
+  height: 50px;
+  width: 50px;
+  font-size: 24px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.floating {
+  height: 98vh;
+}
+.tab-scroll-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  height: 70px;
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+.left-arrow {
+    height: 50px;
+}
+.right-arrow {
+    height: 50px;
+}
